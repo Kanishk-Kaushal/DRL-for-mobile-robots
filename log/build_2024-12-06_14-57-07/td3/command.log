@@ -1,0 +1,4 @@
+Invoking command in '/home/kanishk/DRL_robot_navigation_ros2/build/td3': /usr/bin/cmake --build /home/kanishk/DRL_robot_navigation_ros2/build/td3 -- -j12 -l12
+Invoked command in '/home/kanishk/DRL_robot_navigation_ros2/build/td3' returned '0': /usr/bin/cmake --build /home/kanishk/DRL_robot_navigation_ros2/build/td3 -- -j12 -l12
+Invoking command in '/home/kanishk/DRL_robot_navigation_ros2/build/td3': /usr/bin/cmake --install /home/kanishk/DRL_robot_navigation_ros2/build/td3
+Invoked command in '/home/kanishk/DRL_robot_navigation_ros2/build/td3' returned '0': /usr/bin/cmake --install /home/kanishk/DRL_robot_navigation_ros2/build/td3

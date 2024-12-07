@@ -1,0 +1,195 @@
+[0.018s] Invoking command in '/home/kanishk/DRL_robot_navigation_ros2/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kanishk/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_description -DCMAKE_INSTALL_PREFIX=/home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description
+[0.068s] -- The C compiler identification is GNU 9.4.0
+[0.117s] -- The CXX compiler identification is GNU 9.4.0
+[0.122s] -- Check for working C compiler: /usr/bin/cc
+[0.180s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.181s] -- Detecting C compiler ABI info
+[0.243s] -- Detecting C compiler ABI info - done
+[0.253s] -- Detecting C compile features
+[0.254s] -- Detecting C compile features - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.325s] -- Detecting CXX compiler ABI info
+[0.394s] -- Detecting CXX compiler ABI info - done
+[0.406s] -- Detecting CXX compile features
+[0.406s] -- Detecting CXX compile features - done
+[0.408s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.429s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.429s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.634s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.639s] -- Checking for module 'bullet>=2.82'
+[0.651s] --   Found bullet, version 2.88
+[0.744s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[0.791s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[0.836s] -- Found assimp: /usr/include (found version "5.0.0") 
+[0.856s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.109s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.127s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.131s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.136s] -- Searching for dependencies of ignition-math6
+[1.137s] -- Looking for OGRE...
+[1.138s] -- OGRE_PREFIX_WATCH changed.
+[1.142s] -- Checking for module 'OGRE'
+[1.153s] --   Found OGRE, version 1.9.0
+[1.181s] -- Found Ogre Ghadamon (1.9.0)
+[1.187s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.196s] -- Looking for OGRE_Paging...
+[1.201s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.202s] -- Looking for OGRE_Terrain...
+[1.206s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.206s] -- Looking for OGRE_Property...
+[1.211s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.211s] -- Looking for OGRE_RTShaderSystem...
+[1.216s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.216s] -- Looking for OGRE_Volume...
+[1.221s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.221s] -- Looking for OGRE_Overlay...
+[1.226s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.323s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.324s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.325s] -- Searching for dependencies of ignition-transport8
+[1.339s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.348s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.352s] -- Checking for module 'libzmq >= 4'
+[1.363s] --   Found libzmq , version 4.3.2
+[1.393s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.397s] -- Checking for module 'uuid'
+[1.408s] --   Found uuid, version 2.34.0
+[1.436s] -- Found UUID: TRUE  
+[1.438s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.438s] -- Searching for dependencies of ignition-msgs5
+[1.454s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.458s] -- Checking for module 'tinyxml2'
+[1.469s] --   Found tinyxml2, version 6.2.0
+[1.499s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.500s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.500s] -- Searching for dependencies of ignition-common3
+[1.501s] -- Looking for dlfcn.h - found
+[1.502s] -- Looking for libdl - found
+[1.503s] -- Found DL: TRUE  
+[1.510s] -- Searching for <ignition-common3> component [graphics]
+[1.511s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[1.512s] -- Searching for dependencies of ignition-common3-graphics
+[1.512s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.514s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.515s] -- Searching for dependencies of ignition-fuel_tools4
+[1.570s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.576s] -- Checking for module 'jsoncpp'
+[1.587s] --   Found jsoncpp, version 1.7.4
+[1.615s] -- Found JSONCPP: TRUE  
+[1.620s] -- Checking for module 'libzip'
+[1.631s] --   Found libzip, version 1.5.1
+[1.659s] -- Found ZIP: TRUE  
+[1.660s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.660s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.661s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.663s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[1.715s] -- Configuring done
+[1.717s] -- Generating done
+[1.719s] -- Build files have been written to: /home/kanishk/DRL_robot_navigation_ros2/build/velodyne_description
+[1.728s] Invoked command in '/home/kanishk/DRL_robot_navigation_ros2/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kanishk/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_description -DCMAKE_INSTALL_PREFIX=/home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description
+[1.729s] Invoking command in '/home/kanishk/DRL_robot_navigation_ros2/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kanishk/DRL_robot_navigation_ros2/build/velodyne_description -- -j12 -l12
+[1.762s] Invoked command in '/home/kanishk/DRL_robot_navigation_ros2/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kanishk/DRL_robot_navigation_ros2/build/velodyne_description -- -j12 -l12
+[1.782s] Invoking command in '/home/kanishk/DRL_robot_navigation_ros2/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kanishk/DRL_robot_navigation_ros2/build/velodyne_description
+[1.789s] -- Install configuration: ""
+[1.789s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/ament_index/resource_index/package_run_dependencies/velodyne_description
+[1.789s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/ament_index/resource_index/parent_prefix_path/velodyne_description
+[1.789s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.sh
+[1.790s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.dsv
+[1.790s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/environment/path.sh
+[1.790s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/environment/path.dsv
+[1.790s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/local_setup.bash
+[1.790s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/local_setup.sh
+[1.790s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/local_setup.zsh
+[1.790s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/local_setup.dsv
+[1.790s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.dsv
+[1.790s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/ament_index/resource_index/packages/velodyne_description
+[1.790s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.791s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig.cmake
+[1.791s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig-version.cmake
+[1.791s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.xml
+[1.791s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/launch
+[1.791s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/launch/example-launch.py
+[1.791s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes
+[1.791s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.dae
+[1.791s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.stl
+[1.791s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.stl
+[1.791s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.dae
+[1.792s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.dae
+[1.792s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.stl
+[1.792s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.dae
+[1.792s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.stl
+[1.792s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.stl
+[1.792s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.dae
+[1.793s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/rviz
+[1.793s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/rviz/example.rviz
+[1.793s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf
+[1.793s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf/HDL-32E.urdf.xacro
+[1.793s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf/example.urdf.xacro
+[1.793s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf/VLP-32C.urdf.xacro
+[1.793s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf/VLP-16.urdf.xacro
+[1.793s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/world
+[1.793s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/world/example.world
+[1.793s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/world/lio_sam.model
+[1.793s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models
+[1.793s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot
+[1.793s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/rs_robot.sdf
+[1.794s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/model.config
+[1.794s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes
+[1.794s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL
+[1.794s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension
+[1.794s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_RIGHT_LINKSTL.stl
+[1.794s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/sus_link.stl
+[1.794s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_LEFT_LINKSTL.stl
+[1.795s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_RIGHT_LINKSTL.stl
+[1.795s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_LEFT_LINKSTL.stl
+[1.795s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors
+[1.795s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gps
+[1.795s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gps/gps.stl
+[1.797s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/camera
+[1.797s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf
+[1.797s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf/front_lrf.stl
+[1.801s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf
+[1.801s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf/rear_lrf.stl
+[1.801s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30
+[1.801s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30/gim30.stl
+[1.807s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/base
+[1.807s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/base/base_link_old.stl
+[1.808s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/base/base_link.stl
+[1.808s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/wheel
+[1.808s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/wheel/robot_wheel.stl
+[1.808s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_head
+[1.808s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_head/YDlidar_head v4.stl
+[1.808s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_base
+[1.808s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_base/YDlidar_base.stl
+[1.809s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE
+[1.809s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension
+[1.809s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_right_link.dae
+[1.810s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_left_link.dae
+[1.812s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_left_link.dae
+[1.813s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_right_link.dae
+[1.815s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors
+[1.815s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps
+[1.815s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps_texture.png
+[1.815s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps.dae
+[1.819s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera
+[1.819s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera/camera.dae
+[1.819s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf
+[1.819s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/lrf_texture.png
+[1.819s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/front_lrf.dae
+[1.832s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf
+[1.832s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/rear_lrf.dae
+[1.833s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/urg_texture.png
+[1.833s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30
+[1.833s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30_lrf_texture.png
+[1.833s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30.dae
+[1.849s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/base
+[1.849s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/base/base_linkOLD.dae
+[1.856s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/base/base_link.dae
+[1.864s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/wheel
+[1.864s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/wheel/wheel_link.dae
+[1.865s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_head
+[1.865s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_head/YDlidar_head.dae
+[1.865s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_base
+[1.865s] -- Installing: /home/kanishk/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_base/YDlidar_base.dae
+[1.868s] Invoked command in '/home/kanishk/DRL_robot_navigation_ros2/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kanishk/DRL_robot_navigation_ros2/build/velodyne_description

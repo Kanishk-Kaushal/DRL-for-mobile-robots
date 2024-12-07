@@ -1,0 +1,89 @@
+[0.702s] Invoking command in '/home/kanishk/DRL_robot_navigation_ros2/src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3': PYTHONPATH=/home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/autonomous_tb3 build --build-base /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build install --record /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/install.log --single-version-externally-managed install_data
+[0.905s] running egg_info
+[0.905s] creating ../../../build/autonomous_tb3/autonomous_tb3.egg-info
+[0.905s] writing ../../../build/autonomous_tb3/autonomous_tb3.egg-info/PKG-INFO
+[0.906s] writing dependency_links to ../../../build/autonomous_tb3/autonomous_tb3.egg-info/dependency_links.txt
+[0.906s] writing entry points to ../../../build/autonomous_tb3/autonomous_tb3.egg-info/entry_points.txt
+[0.906s] writing requirements to ../../../build/autonomous_tb3/autonomous_tb3.egg-info/requires.txt
+[0.906s] writing top-level names to ../../../build/autonomous_tb3/autonomous_tb3.egg-info/top_level.txt
+[0.909s] writing manifest file '../../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[0.939s] reading manifest file '../../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[0.940s] writing manifest file '../../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[0.940s] running build
+[0.940s] running build_py
+[0.940s] creating /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build
+[0.940s] creating /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib
+[0.941s] creating /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib/autonomous_tb3
+[0.941s] copying autonomous_tb3/spawn_entity.py -> /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib/autonomous_tb3
+[0.941s] copying autonomous_tb3/maze_solver.py -> /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib/autonomous_tb3
+[0.941s] copying autonomous_tb3/hotel_waiter_multi_button.py -> /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib/autonomous_tb3
+[0.941s] copying autonomous_tb3/hotel_waiter_single_goal.py -> /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib/autonomous_tb3
+[0.941s] copying autonomous_tb3/__init__.py -> /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib/autonomous_tb3
+[0.941s] copying autonomous_tb3/occupancy_grid_pub.py -> /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib/autonomous_tb3
+[0.941s] running install
+[0.941s] running install_lib
+[0.942s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3
+[0.942s] copying /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib/autonomous_tb3/spawn_entity.py -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3
+[0.942s] copying /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib/autonomous_tb3/maze_solver.py -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3
+[0.942s] copying /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib/autonomous_tb3/hotel_waiter_multi_button.py -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3
+[0.942s] copying /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib/autonomous_tb3/hotel_waiter_single_goal.py -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3
+[0.943s] copying /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib/autonomous_tb3/__init__.py -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3
+[0.943s] copying /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build/lib/autonomous_tb3/occupancy_grid_pub.py -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3
+[0.943s] byte-compiling /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3/spawn_entity.py to spawn_entity.cpython-38.pyc
+[0.944s] byte-compiling /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3/maze_solver.py to maze_solver.cpython-38.pyc
+[0.945s] byte-compiling /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3/hotel_waiter_multi_button.py to hotel_waiter_multi_button.cpython-38.pyc
+[0.945s] byte-compiling /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3/hotel_waiter_single_goal.py to hotel_waiter_single_goal.cpython-38.pyc
+[0.946s] byte-compiling /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3/__init__.py to __init__.cpython-38.pyc
+[0.946s] byte-compiling /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3/occupancy_grid_pub.py to occupancy_grid_pub.cpython-38.pyc
+[0.946s] running install_data
+[0.946s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/ament_index
+[0.946s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/ament_index/resource_index
+[0.946s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/ament_index/resource_index/packages
+[0.947s] copying resource/autonomous_tb3 -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/ament_index/resource_index/packages
+[0.947s] copying package.xml -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3
+[0.947s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/launch
+[0.947s] copying launch/hotel_waiter.launch.py -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/launch
+[0.947s] copying launch/mapping.launch.py -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/launch
+[0.947s] copying launch/maze_navigation.launch.py -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/launch
+[0.947s] copying launch/tb3_world_navigation.launch.py -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/launch
+[0.947s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/config
+[0.947s] copying config/tb3_world.yaml -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/config
+[0.947s] copying config/tb3_nav_params.yaml -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/config
+[0.947s] copying config/hotel_map.yaml -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/config
+[0.947s] copying config/tb3_nav.rviz -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/config
+[0.947s] copying config/tb3_world.pgm -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/config
+[0.948s] copying config/maze.pgm -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/config
+[0.948s] copying config/hotel_map.pgm -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/config
+[0.948s] copying config/maze.yaml -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/config
+[0.948s] copying config/tb3_cartographer.lua -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/config
+[0.948s] copying config/mapping.rviz -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/config
+[0.948s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/world
+[0.948s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[0.948s] copying world/maze/model.sdf -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[0.948s] copying world/maze/model.config -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[0.948s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models
+[0.948s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/actor
+[0.948s] copying models/actor/model.sdf -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/actor
+[0.948s] copying models/actor/model.config -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/actor
+[0.948s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/table
+[0.949s] copying models/table/model-1_2.sdf -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/table
+[0.949s] copying models/table/model.sdf -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/table
+[0.949s] copying models/table/model.config -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/table
+[0.949s] copying models/table/model-1_3.sdf -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/table
+[0.949s] copying models/table/model-1_4.sdf -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/table
+[0.949s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[0.949s] copying models/beer/model.sdf -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[0.949s] copying models/beer/model-1_4.sdf -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[0.949s] copying models/beer/model.config -> /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[0.949s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/beer/scripts
+[0.949s] creating /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/share/autonomous_tb3/models/beer/texutres
+[0.949s] running install_egg_info
+[0.950s] Copying ../../../build/autonomous_tb3/autonomous_tb3.egg-info to /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages/autonomous_tb3-0.0.0-py3.8.egg-info
+[0.951s] running install_scripts
+[0.966s] Installing autonomous_waiter script to /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/autonomous_tb3
+[0.966s] Installing autonomous_waiter_lite script to /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/autonomous_tb3
+[0.966s] Installing maze_solver script to /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/autonomous_tb3
+[0.966s] Installing occupancy_grid_pub script to /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/autonomous_tb3
+[0.966s] Installing sdf_spawner script to /home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/autonomous_tb3
+[0.966s] writing list of installed files to '/home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/install.log'
+[0.983s] Invoked command in '/home/kanishk/DRL_robot_navigation_ros2/src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3' returned '0': PYTHONPATH=/home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kanishk/DRL_robot_navigation_ros2/install/autonomous_tb3/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/autonomous_tb3 build --build-base /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/build install --record /home/kanishk/DRL_robot_navigation_ros2/build/autonomous_tb3/install.log --single-version-externally-managed install_data
