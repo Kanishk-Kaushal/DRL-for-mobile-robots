@@ -35,6 +35,13 @@ $ git clone https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots
 ```
 The network can be run with a standard 2D laser, but this implementation uses a simulated [3D Velodyne sensor](https://github.com/lmark1/velodyne_simulator)
 
+Clean the previous build:
+```shell
+$ cd ~/DRL-for-mobile-robots
+$ rm -rf build
+$ source /opt/ros/foxy/setup.bash
+```
+
 Compile the workspace:
 ```shell
 $ cd ~/DRL-for-mobile-robots
