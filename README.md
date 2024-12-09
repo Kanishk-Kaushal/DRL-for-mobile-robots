@@ -5,7 +5,7 @@ Deep Reinforcement Learning for mobile robot navigation in ROS Gazebo simulator.
 
 Training example:
 <p align="center">
-    <img width=100% src="https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots/main/training.gif">
+    <img width=100% src="https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots/blob/main/training.gif">
 </p>
 
 
@@ -13,12 +13,12 @@ Training example:
 **Project Report**
 
 
-Some more information about the implementation is available [here](https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots/main/DS5220_DRL_for_Mobile_Robots_002306180.pdf)
+Some more information about the implementation is available [here](https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots/blob/main/DS5220_DRL_for_Mobile_Robots_002306180.pdf)
 
 ## Installation
 Main dependencies: 
 
-* [ROS2 Foxy]([https://docs.ros.org/en/foxy/Installation.html])
+* [ROS2 Foxy](https://docs.ros.org/en/foxy/Installation.html)
 * [PyTorch](https://pytorch.org/get-started/locally/)
 * [Tensorboard](https://github.com/tensorflow/tensorboard)
 
@@ -68,10 +68,10 @@ $ ros2 launch td3 test_simulation.launch.py
 
 Gazebo environment:
 <p align="center">
-    <img width=80% src="https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots/main/gz.png">
+    <img width=80% src="https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots/blob/main/gz.png">
 </p>
 
 Rviz:
 <p align="center">
-    <img width=80% src="https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots/main/rviz.png">
+    <img width=80% src="https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots/blob/main/rviz.png">
 </p>
