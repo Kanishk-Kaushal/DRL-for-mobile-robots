@@ -14,7 +14,7 @@ Testing example (Notice how robot reaches goal  state almost every time):
     <img width=100% src="https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots/blob/main/testing.gif">
 </p>
 
-**Project Report**
+## Project Report
 
 
 Some more information about the implementation is available [here](https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots/blob/main/DS5220_DRL_for_Mobile_Robots_002306180.pdf)
@@ -79,15 +79,15 @@ Once training is completed (Took me ~7500 episodes), test the model:
 $ ros2 launch td3 test_simulation.launch.py
 ```
 
-Gazebo environment:
+## Gazebo environment:
 <p align="center">
     <img width=80% src="https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots/blob/main/gz.png">
 </p>
 
-Rviz:
+## Rviz:
 <p align="center">
     <img width=80% src="https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots/blob/main/rviz.png">
 </p>
 
-Future scope:
+## Future scope:
 To-do a comprehensive comparative analysis between using the conventional approaches and TD3 for autonomous navigation of mobile robot in indoor environments.
