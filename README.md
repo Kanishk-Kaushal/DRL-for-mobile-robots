@@ -88,3 +88,6 @@ Rviz:
 <p align="center">
     <img width=80% src="https://github.com/Kanishk-Kaushal/DRL-for-mobile-robots/blob/main/rviz.png">
 </p>
+
+Future scope:
+To-do a comprehensive comparative analysis between using the conventional approaches and TD3 for autonomous navigation of mobile robot in indoor environments.
